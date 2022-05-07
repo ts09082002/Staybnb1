@@ -1,0 +1,53 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7px;
+}
+.logo{
+   width: 150px;
+   margin-left: 20px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+.nav-links li a{
+    text-decoration:  none;
+    color: #fff;
+
+}
+.register-btn{
+    background: rgb(227, 192, 19);
+    color: #000;
+    padding: 8px 40px;
+    margin-right: 3%;
+    border-radius: 100px;
+    text-decoration: none ;
+    font-size: 14px;
+}
+
+
+.footer{
+    margin: 80px 40px 10px;
+    text-align: center;
+}
+.footer i {
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer p{
+    padding-bottom: 15px;
+}
